@@ -1,0 +1,89 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background-image: url('../images/Theme.png');
+    width: 18.75rem;
+    height: 32.5rem;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.photo {
+    width: 15%;
+    float: right;
+    border-style: solid;
+    border-color: blue;
+}
+
+.ID-Photo {
+    border-radius: 50%;
+    width: 70%;
+    margin: 0;
+    border-style: solid;
+    border-color: blue;
+}
+
+.signature {
+    width: 40%;
+}
+
+.heading {
+    margin: 20px auto 0 auto;
+}
+
+.heading1 {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    ;
+}
+
+.para {
+    font-size: 8px;
+}
+
+p {
+    font-size: small;
+    margin: 0px;
+}
+
+.ID-header {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+.heading2 {
+    margin: 0 auto 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: small;
+}
+
+.footer {
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.border-line {
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    top: 10px;
+    border-width: thin;
+}
